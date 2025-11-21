@@ -9,7 +9,7 @@ app.use(express.static('public'));
 app.get('/', (req, res) => {
     res.render('index', { 
         title: 'Home Page',
-        message: 'Najeeb Ullah Khan 47434 lab 6 Ok',
+        message: 'Najeeb Ullah Khan 47434 lab 6 change',
         timestamp: new Date().toLocaleString()
     });
 });
