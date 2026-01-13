@@ -9,7 +9,7 @@ app.use(express.static('public'));
 app.get('/', (req, res) => {
     res.render('index', { 
         title: 'Home Page',
-        message: 'Devops Lab today 123',
+        message: 'Devops Lab',
         timestamp: new Date().toLocaleString()
     });
 });
