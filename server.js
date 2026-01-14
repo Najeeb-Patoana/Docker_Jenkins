@@ -9,7 +9,7 @@ app.use(express.static('public'));
 app.get('/', (req, res) => {
     res.render('index', { 
         title: 'Home Page',
-        message: 'Mahnoor Hassan',
+        message: 'Mahnoor devops',
         timestamp: new Date().toLocaleString()
     });
 });
